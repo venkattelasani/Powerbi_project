@@ -41,4 +41,9 @@ Weather analysis based on rain,Temparature,Humidity and wind speed
 - Districts and mandals are the primary geographic units for analysis.  
 - Data spans **January 2021 – April 2024**.  
 - Dashboard allows filtering by **Year, Month, District, and Mandal**.  
-- All transformations are performed in **Power Query** before visualization.  
+- All transformations are performed in **Power Query** before visualization.
+
+
+
+<img width="1428" height="796" alt="image" src="https://github.com/user-attachments/assets/a8076a56-7c10-43ab-b910-bef10a3c7414" />
+
