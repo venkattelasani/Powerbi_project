@@ -1,12 +1,12 @@
-# 🌦️ Telangana Weather Data Analysis (2021–2024) — Power BI Project
+#  Telangana Weather Data Analysis (2021–2024) — Power BI Project
 
-## 📘 Overview
+##  Overview
 This project analyzes and visualizes Telangana’s weather patterns between **2021 and 2024** using **Power BI**.  
 The goal is to transform raw weather data into meaningful insights about **temperature, rainfall, humidity, and wind speed** across different districts, seasons, and years.
 
 ---
 
-## 🧩 Objective
+##  Objective
 To build a Power BI dashboard that provides:
 - Yearly and seasonal weather trends  
 - Regional comparisons (District & Mandal)  
@@ -14,7 +14,7 @@ To build a Power BI dashboard that provides:
 
 ---
 
-## 📊 Key Business Problem
+##  Key Business Problem
 Telangana has diverse climate conditions across its districts. Understanding weather behavior helps in:
 - **Agricultural planning and crop management**  
 - **Urban development and disaster preparedness**  
@@ -26,19 +26,19 @@ Telangana has diverse climate conditions across its districts. Understanding wea
 
 ## ⚙️ Project Workflow
 
-### 1️⃣ Data Collection
+### 1️ Data Collection
 - Collected yearly weather data for **2021–2024** (District and Mandal level).  
 - Each file contained **daily readings** such as temperature, humidity, rainfall, and wind speed.
 
 ---
 
-### 2️⃣ Data Integration (Power Query)
+### 2️ Data Integration (Power Query)
 - Imported all four yearly files into Power BI.  
 - Used **Power Query → Append Queries** to combine them into a single dataset named `FactWeather`.
 
 ---
 
-### 3️⃣ Data Cleaning and Validation
+### 3️ Data Cleaning and Validation
 Ensured the dataset was consistent and reliable by handling missing or invalid values.
 
 | Parameter | Issue Found | Cleaning Applied |
@@ -48,11 +48,11 @@ Ensured the dataset was consistent and reliable by handling missing or invalid v
 | Humidity (%) | 0 or negative values | Replaced with null |
 | Wind Speed (Kmph) | Negative values | Replaced with null |
 
-✅ **Result:** Clean and trustworthy dataset ready for transformation.
+ **Result:** Clean and trustworthy dataset ready for transformation.
 
 ---
 
-### 4️⃣ Feature Engineering (DAX Calculations)
+### 4️ Feature Engineering (DAX Calculations)
 
 #### **A. Measures**
 ```DAX
@@ -95,7 +95,7 @@ Year = YEAR(FactWeather[Date])
 
 ---
 
-### 5️⃣ Data Modeling
+### 5️ Data Modeling
 Created a single **Fact Table (`FactWeather`)** with all necessary fields for analysis:
 
 | Column Name | Description |
@@ -106,11 +106,11 @@ Created a single **Fact Table (`FactWeather`)** with all necessary fields for an
 | Rain (mm) | Daily rainfall |
 | diff_Humidity, Max Temp, Min Temp | Derived insights |
 
-✅ Optimized model for performance and easy filtering.
+ Optimized model for performance and easy filtering.
 
 ---
 
-### 6️⃣ Visualization (Power BI Dashboard Design)
+### 6️ Visualization (Power BI Dashboard Design)
 
 | Section | Description | Visualization Type |
 |----------|--------------|--------------------|
@@ -127,24 +127,24 @@ Created a single **Fact Table (`FactWeather`)** with all necessary fields for an
 
 ---
 
-### 7️⃣ Insights Derived
-- 🌧️ **Rainfall** peaks during **June–September (Monsoon Season)**.  
-- 🌡️ **Highest temperatures** in **May**, especially in *Nalgonda* and *Mahabubnagar*.  
-- 💨 **Wind speed** increases during summer months due to convection currents.  
-- 💧 **Humidity** lowest in winter, highest in monsoon months.
+### 7️ Insights Derived
+-  **Rainfall** peaks during **June–September (Monsoon Season)**.  
+-  **Highest temperatures** in **May**, especially in *Nalgonda* and *Mahabubnagar*.  
+-  **Wind speed** increases during summer months due to convection currents.  
+-  **Humidity** lowest in winter, highest in monsoon months.
 
 ---
 
-## 🎯 Project Outcome
-✅ Combined 4 years of Telangana weather data into one clean dataset  
-✅ Removed anomalies and improved data quality  
-✅ Created custom DAX measures and calculated columns  
-✅ Designed an interactive Power BI dashboard  
-✅ Derived actionable insights on seasonal and district-level climate patterns  
+##  Project Outcome
+ Combined 4 years of Telangana weather data into one clean dataset  
+ Removed anomalies and improved data quality  
+ Created custom DAX measures and calculated columns  
+ Designed an interactive Power BI dashboard  
+ Derived actionable insights on seasonal and district-level climate patterns  
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - Practical understanding of **Power Query (ETL)**  
 - Experience with **DAX measures and calculated columns**  
 - Designed an **optimized data model**  
@@ -152,7 +152,7 @@ Created a single **Fact Table (`FactWeather`)** with all necessary fields for an
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool | Purpose |
 |------|----------|
@@ -163,7 +163,7 @@ Created a single **Fact Table (`FactWeather`)** with all necessary fields for an
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Telangana_Weather_Analysis/
 │
@@ -184,13 +184,11 @@ Telangana_Weather_Analysis/
 
 ---
 
-## 🧩 Future Enhancements
+##  Future Enhancements
 - Add **forecasting visuals** using time-series prediction.  
 - Build a **Date Dimension Table** for deeper analysis.  
 - Automate **data refresh** with Power BI Service and APIs.
 
 ---
 
-## 📢 Author
-**Venkatarao Telasani**  
-[LinkedIn](https://www.linkedin.com/in/venkatarao-telasani/) • [GitHub](https://github.com/venkattelasani) • [Medium](https://medium.com/@venkatarao3075)
+
