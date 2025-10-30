@@ -192,3 +192,4 @@ Telangana_Weather_Analysis/
 ---
 
 
+<img width="1428" height="796" alt="image" src="https://github.com/user-attachments/assets/a8076a56-7c10-43ab-b910-bef10a3c7414" />
